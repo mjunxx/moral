@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Profiles in Moral Courage</title>
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+--bg:#f6f1e7;--card:#fffdf8;--ink:#1e1b18;--mute:#6b625a;--red:#b3261e;--navy:#1f3a5f;--gold:#c8902b;--line:#ddd3c2}
+:root[data-theme="dark"]{--bg:#16140f;--card:#211e17;--ink:#f1ebdf;--mute:#a79e90;--red:#ef7b73;--navy:#8fb3e6;--gold:#e3b04f;--line:#3a352a}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#16140f;--card:#211e17;--ink:#f1ebdf;--mute:#a79e90;--red:#ef7b73;--navy:#8fb3e6;--gold:#e3b04f;--line:#3a352a}}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*:before,*:after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 Georgia,'Times New Roman',serif}
+.wrap{max-width:960px;margin:0 auto;padding:20px 16px 40px}
+h1,h2,h3,.sans{font-family:'Helvetica Neue',Arial,sans-serif}
+header{text-align:center;padding:28px 12px 20px;border-bottom:4px double var(--ink)}
+.kicker{letter-spacing:.2em;text-transform:uppercase;font-size:12px;color:var(--red);font-weight:700}
+h1{font-size:clamp(30px,6vw,52px);margin:6px 0;line-height:1.05}
+header p{max-width:620px;margin:8px auto 0;color:var(--mute);font-style:italic}
+.sec{margin-top:30px}
+.sec>h2{font-size:13px;letter-spacing:.18em;text-transform:uppercase;margin:0 0 12px;display:flex;align-items:center;gap:10px}
+.sec>h2 span{background:var(--ink);color:var(--bg);border-radius:50%;width:26px;height:26px;display:inline-flex;align-items:center;justify-content:center;font-size:13px}
+.grid{display:grid;gap:14px}
+.g2{grid-template-columns:repeat(auto-fit,minmax(270px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px}
+.card h3{margin:0 0 6px;font-size:20px}
+.mc{border-top:6px solid var(--red)}.wl{border-top:6px solid var(--navy)}
+.tag{font-size:12px;color:var(--mute);font-family:Arial,sans-serif}
+.def{font-size:17px;margin:6px 0 10px}
+ul{padding-left:18px;margin:6px 0}li{margin:4px 0}
+.formula{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;align-items:stretch;margin-top:10px}
+.step{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px;text-align:center;position:relative}
+.step b{display:block;font-family:Arial,sans-serif;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+.step.w{border:2px solid var(--navy)}.step.w b{color:var(--navy)}
+.big{font-size:22px;text-align:center;margin:14px 0 4px;font-style:italic}
+.ex{border:2px solid var(--ink);border-radius:12px;background:var(--card);overflow:hidden}
+.exh{background:var(--ink);color:var(--bg);padding:14px 18px}
+.exh h3{margin:0;font-size:24px}.exh div{font-size:13px;opacity:.8;font-family:Arial,sans-serif}
+.exb{padding:16px 18px}
+.ladder{margin:8px 0;padding:0;list-style:none}
+.ladder li{display:flex;gap:10px;align-items:center;padding:8px 10px;border-radius:6px;margin:5px 0;font-size:15px}
+.ladder .lv{font-family:Arial,sans-serif;font-size:11px;font-weight:700;min-width:74px;text-transform:uppercase;letter-spacing:.06em}
+.l1{background:color-mix(in srgb,var(--gold) 18%,transparent)}.l2{background:color-mix(in srgb,var(--gold) 34%,transparent)}
+.l3{background:color-mix(in srgb,var(--red) 22%,transparent)}.l4{background:color-mix(in srgb,var(--red) 40%,transparent)}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.box{border-left:4px solid var(--navy);padding:4px 12px}
+.box h4{margin:0 0 4px;font-family:Arial,sans-serif;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--navy)}
+.box.r{border-color:var(--red)}.box.r h4{color:var(--red)}
+.cmp{width:100%;border-collapse:collapse;font-size:14px}
+.cmp th,.cmp td{border:1px solid var(--line);padding:8px;text-align:left;vertical-align:top;background:var(--card)}
+.cmp th{font-family:Arial,sans-serif;font-size:12px;text-transform:uppercase;letter-spacing:.08em}
+.scroll{overflow-x:auto}
+.take{background:var(--ink);color:var(--bg);border-radius:12px;padding:22px;text-align:center}
+.take p{font-size:20px;margin:0;font-style:italic}
+.src{font-size:13px;color:var(--mute)}.src li{margin:3px 0}
+</style></head><body><div class="wrap">
+
+<header>
+<div class="kicker">A Concept Map · Philosophy in Action</div>
+<h1>Profiles in Moral Courage</h1>
+<p>How the will turns a conviction into a costly act, mapped through two people who would not stay silent.</p>
+</header>
+
+<section class="sec"><h2 class="sans"><span>1</span>The Foundations</h2>
+<div class="grid g2">
+<div class="card mc"><div class="tag">CONCEPT ONE</div><h3>Moral Courage</h3>
+<p class="def">Acting on one's core ethical principles when doing so puts something real at stake.</p>
+<ul><li><b>Principle:</b> an ethical value held as non-negotiable.</li>
+<li><b>Danger:</b> a genuine threat to career, status, belonging or safety.</li>
+<li><b>Willing endurance:</b> accepting the cost rather than escaping it.</li></ul>
+<p class="tag">Rushworth Kidder, <i>Moral Courage</i> (2005). Aristotle places courage between rashness and cowardice, as a virtue aimed at the noble (<i>Nicomachean Ethics</i> III).</p></div>
+<div class="card wl"><div class="tag">CONCEPT TWO</div><h3>The Will</h3>
+<p class="def">The capacity to choose deliberately and then hold to that choice against resistance.</p>
+<ul><li><b>Choice:</b> Aristotle's <i>prohairesis</i>, a considered decision, not impulse.</li>
+<li><b>Effort:</b> William James: willing is sustaining attention on the harder option while easier ones tug.</li>
+<li><b>Goodness:</b> Kant: the good will is the only thing good without qualification.</li></ul>
+<p class="tag">Aristotle; James, <i>Principles of Psychology</i> (1890), ch. 26; Kant, <i>Groundwork</i> (1785).</p></div>
+</div>
+
+<div class="big">Conviction tells you what is right. The will makes you do it.</div>
+<div class="formula sans">
+<div class="step"><b>1 · Conviction</b>"This is wrong."</div>
+<div class="step"><b>2 · Risk</b>Silence is safe; speaking is costly.</div>
+<div class="step w"><b>3 · The Will</b>Choose, commit, resist the pull to retreat.</div>
+<div class="step"><b>4 · Action</b>Speak, refuse or resist.</div>
+<div class="step"><b>5 · Endurance</b>Accept the consequences.</div>
+</div>
+<p style="text-align:center;margin-top:10px"><b>The link:</b> moral courage is the <i>outcome</i>; the will is the <i>engine</i>. Without will, principle stays private opinion. Without principle, will is mere stubbornness.</p>
+</section>
+
+<section class="sec"><h2 class="sans"><span>2</span>Exemplar One</h2>
+<div class="ex"><div class="exh"><h3>Sophie Scholl</h3><div>1921–1943 · White Rose resistance group, Munich, Nazi Germany</div></div>
+<div class="exb">
+<p><b>The act:</b> Scholl helped write, copy and distribute leaflets that condemned the Nazi regime and the murder of Jews, urging fellow Germans to resist. On 18 February 1943 she and her brother Hans scattered leaflets in a University of Munich atrium and were seen and arrested.</p>
+<div class="sans" style="font-size:12px;font-weight:700;letter-spacing:.1em">THE RISK LADDER: each rung costs more</div>
+<ul class="ladder">
+<li class="l1"><span class="lv">Social</span>Break with friends and neighbors who conformed</li>
+<li class="l2"><span class="lv">Academic</span>Lose her university place and future</li>
+<li class="l3"><span class="lv">Legal</span>Treason charges before a hostile court</li>
+<li class="l4"><span class="lv">Life</span>Execution by guillotine on 22 February 1943, aged 21</li></ul>
+<div class="cols">
+<div class="box r"><h4>Principle</h4>Human dignity and truth outrank obedience to an unjust state.</div>
+<div class="box"><h4>Will in action</h4>She chose the work again and again over months, then refused to bargain or incriminate others under Gestapo interrogation. After the verdict, accounts record her calm, which signals a settled decision rather than a flash of bravery.</div>
+</div>
+<p><b>Why she fits:</b> The danger was explicit and rising, silence was available, and she had every incentive to retreat. Her courage was a repeated, deliberate choice, the will working over time.</p>
+</div></div></section>
+
+<section class="sec"><h2 class="sans"><span>3</span>Exemplar Two</h2>
+<div class="ex"><div class="exh"><h3>Frances Oldham Kelsey</h3><div>1914–2015 · FDA medical reviewer, United States, 1960–62</div></div>
+<div class="exb">
+<p><b>The act:</b> Newly at the FDA, Kelsey reviewed an application to market the sedative thalidomide. She judged the safety data inadequate and kept requesting more evidence despite repeated pressure from the manufacturer's representatives. The drug was never approved in the US, while it caused thousands of severe birth defects abroad.</p>
+<ul class="ladder">
+<li class="l1"><span class="lv">Professional</span>Seen as obstructive by a company and colleagues</li>
+<li class="l2"><span class="lv">Institutional</span>Sustained pressure to approve within a fixed review window</li>
+<li class="l3"><span class="lv">Reputation</span>Personal criticism for delaying a "safe" product</li></ul>
+<div class="cols">
+<div class="box r"><h4>Principle</h4>Public safety must be proven, not assumed.</div>
+<div class="box"><h4>Will in action</h4>The easy path was a signature. She kept saying "not yet" through months of pressure, treating a procedural duty as a moral one. In 1962 President Kennedy honored her with the Distinguished Federal Civilian Service Award.</div>
+</div>
+<p><b>Why she fits:</b> A quiet counterpoint to Scholl. The risk was career and reputation, not life, which shows moral courage also lives in ordinary offices.</p>
+</div></div></section>
+
+<section class="sec"><h2 class="sans"><span>4</span>Side by Side</h2>
+<div class="scroll"><table class="cmp">
+<tr><th></th><th>Sophie Scholl</th><th>Frances Kelsey</th></tr>
+<tr><th>Principle</th><td>Truth and human dignity</td><td>Public safety</td></tr>
+<tr><th>Opposition</th><td>A totalitarian state</td><td>Corporate and bureaucratic pressure</td></tr>
+<tr><th>Cost</th><td>Her life</td><td>Reputation and professional standing</td></tr>
+<tr><th>How the will showed</th><td>Sustained commitment, refusal to inform</td><td>Persistent refusal to sign off</td></tr>
+<tr><th>Form of act</th><td>Speaking out</td><td>Holding a line</td></tr>
+</table></div></section>
+
+<section class="sec"><div class="take"><p>Moral courage is not the absence of fear. It is the will choosing the principle anyway, and paying the price.</p></div></section>
+
+<section class="sec"><h2 class="sans"><span>5</span>Sources</h2>
+<ul class="src">
+<li>Aristotle, <i>Nicomachean Ethics</i>, Book III (courage, deliberate choice).</li>
+<li>Kant, <i>Groundwork of the Metaphysics of Morals</i> (the good will).</li>
+<li>James, W. (1890). <i>The Principles of Psychology</i>, ch. 26, "Will."</li>
+<li>Kidder, R. (2005). <i>Moral Courage</i>. William Morrow.</li>
+<li>Scholl: Hinrich Jahnke and the White Rose Foundation archives; Inge Scholl, <i>The White Rose</i>.</li>
+<li>Kelsey: FDA History Office accounts of the thalidomide review; Kennedy award, August 1962.</li>
+</ul></section>
+</div></body></html>
